@@ -1,0 +1,91 @@
+/*---------------------------RESET------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------MAQUETADO-----------------------*/
+body {
+    background-color: rgb(30, 42, 95);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 25px 0px 10px 0px;
+}
+
+.input-div{
+    width: 525px;
+    margin: 0 auto;
+    padding: 15px 0px;
+
+}
+
+input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+}
+
+.boton-agregar:hover{
+    opacity: 0.9;
+}
+
+.item-input{
+    width: 350px;
+    height: 50px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+.item{
+    width: 455.189px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton-editar{
+    margin: 0px 5px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+}
+
+.boton-remover{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+}
