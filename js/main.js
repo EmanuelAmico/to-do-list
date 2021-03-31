@@ -15,22 +15,27 @@ class Item {
         inputItem.value = tarea
         inputItem.disabled = true
         inputItem.classList.add("item-input")
+
         //div padre
         let divItem = document.createElement("div")
         divItem.classList.add("item")
+
         //boton editar
         let botonEditar = document.createElement("button")
         botonEditar.innerHTML = '<i class="fas fa-lock"></i>'
         botonEditar.classList.add("boton-editar")
+
         //boton remover
         let botonRemover = document.createElement("button")
         botonRemover.innerHTML = '<i class="fas fa-trash"></i>'
         botonRemover.classList.add("boton-remover")
+
         //append al divItem
         divItem.appendChild(inputItem)
         divItem.appendChild(botonEditar)
         divItem.appendChild(botonRemover)
         container.appendChild(divItem)
+        
         //listener's de los botones editar y remover
         botonEditar.addEventListener("click", function () {
             inputItem.disabled = !inputItem.disabled
